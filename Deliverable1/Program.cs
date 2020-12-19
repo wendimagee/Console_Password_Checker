@@ -14,11 +14,7 @@ namespace Deliverable1
               Console.WriteLine("    Must be a minimum of 7 characters");
               Console.WriteLine("    Must be a maximum of 12 characters");
               Console.WriteLine("    Must include an exclamation point (!)");
-               string password = Console.ReadLine();
-
-                // we need to list some boolean expressions here for validation
-                bool containsAtLeastOneUppercase = password.Any(char.IsUpper);
-                bool containsAtLeastOneLowercase = password.Any(char.IsLower);
+              string password = Console.ReadLine();
 
             if (password.Length < 7 || password.Length > 12)
                 {
